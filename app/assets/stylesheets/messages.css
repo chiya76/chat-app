@@ -1,0 +1,58 @@
+/*************
+index
+***************/
+
+.wrapper{
+  display: flex;
+}
+
+.side-bar{
+  width: 300px;
+  height: 100vh;
+  background-color: #253141;
+}
+
+.chat{
+  width: calc(100vw - 300px);
+  height: 100vh;
+  background-color: #ffffff;
+}
+
+
+/**************
+side-bar
+*************/
+
+.sidebar-header{
+  height: 100px;
+  padding: 0 20px;
+}
+
+.sidebar-contents{
+  height: calc(100vh - 100px);
+  background-color: #2f3e51;
+  padding: 0 20px;
+}
+
+
+/***************
+main_chat
+**************/
+
+.mainchat-header{
+  height: 100px;
+  padding: 0 40px;
+}
+
+.mainchat-contents{
+  height: calc(100vh - 190px);
+  background-color: #fafafa;
+  padding-top: 46px;
+  padding: 46px 40px 0;
+}
+
+.mainchat-form{
+  height: 90px;
+  background-color: #dddddd;
+  padding: 20px 40px;
+}
